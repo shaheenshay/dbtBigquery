@@ -1,0 +1,254 @@
+[0m11:30:49.020690 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74ab89464da0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74ab8bd15820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74ab88cf50d0>]}
+
+
+============================== 11:30:49.023932 | 367cdf91-fc23-46a1-9d64-fc274f95ea81 ==============================
+[0m11:30:49.023932 [info ] [MainThread]: Running with dbt=1.8.2
+[0m11:30:49.024670 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/home/quizent/.dbt', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt init', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m11:31:05.139786 [debug] [MainThread]: Starter project path: /home/quizent/Projects/dbtProj1/venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m11:31:05.161307 [info ] [MainThread]: 
+Your new dbt project "dbtproj1" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:31:05.163912 [info ] [MainThread]: Setting up your profile.
+[0m11:38:32.899498 [info ] [MainThread]: Profile dbtproj1 written to /home/quizent/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m11:38:32.912872 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 463.94446, "process_user_time": 2.547343, "process_kernel_time": 0.281148, "process_mem_max_rss": "192308", "process_in_blocks": "1984", "process_out_blocks": "80"}
+[0m11:38:32.920051 [debug] [MainThread]: Command `dbt init` succeeded at 11:38:32.918777 after 463.95 seconds
+[0m11:38:32.925169 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74ab88ccf950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74ab745bbf20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74ab89482300>]}
+[0m11:38:32.930422 [debug] [MainThread]: Flushing usage events
+[0m11:40:20.673302 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x746ea65828d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x746ea65827e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x746ea6fc00e0>]}
+
+
+============================== 11:40:20.676493 | e1d00a4b-7b81-4564-bd77-e180c30b8169 ==============================
+[0m11:40:20.676493 [info ] [MainThread]: Running with dbt=1.8.2
+[0m11:40:20.677345 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/quizent/.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug --config-dir', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:40:20.688630 [info ] [MainThread]: To view your profiles.yml file, run:
+
+xdg-open /home/quizent/.dbt
+[0m11:40:20.690282 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": true, "command_wall_clock_time": 0.070009366, "process_user_time": 1.467353, "process_kernel_time": 0.118947, "process_mem_max_rss": "86180", "process_out_blocks": "24", "process_in_blocks": "0"}
+[0m11:40:20.691731 [debug] [MainThread]: Command `dbt debug` succeeded at 11:40:20.691497 after 0.07 seconds
+[0m11:40:20.692551 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x746ea65b9cd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x746ea65827e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x746ea64deea0>]}
+[0m11:40:20.693390 [debug] [MainThread]: Flushing usage events
+[0m11:56:38.686144 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72fa498765a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72fa49c2bf80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72fa49c29dc0>]}
+
+
+============================== 11:56:38.689528 | d2cb43ba-9452-4ac3-bd55-6596c2365e9b ==============================
+[0m11:56:38.689528 [info ] [MainThread]: Running with dbt=1.8.2
+[0m11:56:38.690517 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/quizent/.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt deps', 'send_anonymous_usage_stats': 'True'}
+[0m11:56:38.691682 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/quizent/Projects/dbtProj1/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m11:56:38.692743 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_wall_clock_time": 0.05904886, "process_user_time": 1.439486, "process_kernel_time": 0.122615, "process_mem_max_rss": "85612", "process_out_blocks": "8", "command_success": false, "process_in_blocks": "0"}
+[0m11:56:38.693483 [debug] [MainThread]: Command `dbt deps` failed at 11:56:38.693355 after 0.06 seconds
+[0m11:56:38.693971 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72fa4b1bc6e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72fa4922eff0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72fa48d8f8f0>]}
+[0m11:56:38.694503 [debug] [MainThread]: Flushing usage events
+[0m12:58:33.444726 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a86258230>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a86872390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a878bbf20>]}
+
+
+============================== 12:58:33.447926 | c66d6f72-4139-45ec-87cd-bcff7b24db46 ==============================
+[0m12:58:33.447926 [info ] [MainThread]: Running with dbt=1.8.2
+[0m12:58:33.448861 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/quizent/.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt init', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m12:59:09.098536 [debug] [MainThread]: Starter project path: /home/quizent/Projects/dbtProj1/venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m12:59:09.101943 [info ] [MainThread]: 
+Your new dbt project "myproject1" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m12:59:09.102794 [info ] [MainThread]: Setting up your profile.
+[0m13:01:29.004122 [info ] [MainThread]: Profile myproject1 written to /home/quizent/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m13:01:29.011120 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 175.61937, "process_user_time": 2.514835, "process_kernel_time": 0.288489, "process_mem_max_rss": "192280", "process_out_blocks": "96", "process_in_blocks": "0"}
+[0m13:01:29.017807 [debug] [MainThread]: Command `dbt init` succeeded at 13:01:29.016867 after 175.63 seconds
+[0m13:01:29.021273 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a89b23b60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a71bd4bf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a8604aed0>]}
+[0m13:01:29.026193 [debug] [MainThread]: Flushing usage events
+[0m13:01:45.859123 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7546aadea570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7546a9cf37a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7546ac7fea50>]}
+
+
+============================== 13:01:45.863774 | f703ddaf-f4e6-404c-9c46-2a0393666672 ==============================
+[0m13:01:45.863774 [info ] [MainThread]: Running with dbt=1.8.2
+[0m13:01:45.864930 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/quizent/.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt debug', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m13:01:45.875497 [info ] [MainThread]: dbt version: 1.8.2
+[0m13:01:45.876060 [info ] [MainThread]: python version: 3.12.3
+[0m13:01:45.876598 [info ] [MainThread]: python path: /home/quizent/Projects/dbtProj1/venv/bin/python3
+[0m13:01:45.877164 [info ] [MainThread]: os info: Linux-6.8.0-35-generic-x86_64-with-glibc2.39
+[0m13:01:46.840328 [info ] [MainThread]: Using profiles dir at /home/quizent/.dbt
+[0m13:01:46.841142 [info ] [MainThread]: Using profiles.yml file at /home/quizent/.dbt/profiles.yml
+[0m13:01:46.841742 [info ] [MainThread]: Using dbt_project.yml file at /home/quizent/Projects/dbtProj1/dbt_project.yml
+[0m13:01:46.842440 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m13:01:46.843500 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 1.0389436, "process_user_time": 2.450261, "process_kernel_time": 0.231983, "process_mem_max_rss": "193520", "process_out_blocks": "16", "command_success": false, "process_in_blocks": "0"}
+[0m13:01:46.844308 [debug] [MainThread]: Command `dbt debug` failed at 13:01:46.844178 after 1.04 seconds
+[0m13:01:46.844824 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7546ab4bc170>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x754694fd7b30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x754694d94e00>]}
+[0m13:01:46.845366 [debug] [MainThread]: Flushing usage events
+[0m13:02:44.914289 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d59b3e3a5a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d59b3661280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d59b36635c0>]}
+
+
+============================== 13:02:44.917624 | 4a5a57df-cb7b-40e4-8c5b-eed3576ae6e7 ==============================
+[0m13:02:44.917624 [info ] [MainThread]: Running with dbt=1.8.2
+[0m13:02:44.918541 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': '/home/quizent/.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt debug --config-dir', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m13:02:44.928240 [info ] [MainThread]: To view your profiles.yml file, run:
+
+xdg-open /home/quizent/.dbt
+[0m13:02:44.929363 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": true, "command_wall_clock_time": 0.06755834, "process_user_time": 1.557786, "process_kernel_time": 0.12574, "process_mem_max_rss": "86296", "process_out_blocks": "8", "process_in_blocks": "0"}
+[0m13:02:44.930400 [debug] [MainThread]: Command `dbt debug` succeeded at 13:02:44.930195 after 0.07 seconds
+[0m13:02:44.931376 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d59b350ce30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d59b3423530>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d59b31cce00>]}
+[0m13:02:44.932391 [debug] [MainThread]: Flushing usage events
+[0m15:07:44.898624 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c155aad7770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c155abe65d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c155ae21220>]}
+
+
+============================== 15:07:44.901898 | 90573de6-ea80-4345-94f7-c425bdc80055 ==============================
+[0m15:07:44.901898 [info ] [MainThread]: Running with dbt=1.8.2
+[0m15:07:44.902925 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/quizent/.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m15:07:44.912704 [info ] [MainThread]: dbt version: 1.8.2
+[0m15:07:44.913407 [info ] [MainThread]: python version: 3.12.3
+[0m15:07:44.913993 [info ] [MainThread]: python path: /home/quizent/Projects/dbtProj1/venv/bin/python3
+[0m15:07:44.914642 [info ] [MainThread]: os info: Linux-6.8.0-35-generic-x86_64-with-glibc2.39
+[0m15:07:45.845139 [info ] [MainThread]: Using profiles dir at /home/quizent/.dbt
+[0m15:07:45.845827 [info ] [MainThread]: Using profiles.yml file at /home/quizent/.dbt/profiles.yml
+[0m15:07:45.846655 [info ] [MainThread]: Using dbt_project.yml file at /home/quizent/Projects/dbtProj1/dbt_project.yml
+[0m15:07:45.847436 [info ] [MainThread]: adapter type: bigquery
+[0m15:07:45.848218 [info ] [MainThread]: adapter version: 1.8.1
+[0m15:07:45.848759 [info ] [MainThread]: Configuration:
+[0m15:07:45.849319 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m15:07:45.849806 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m15:07:45.850348 [info ] [MainThread]: Required dependencies:
+[0m15:07:45.851121 [debug] [MainThread]: Executing "git --help"
+[0m15:07:45.854254 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m15:07:45.854931 [debug] [MainThread]: STDERR: "b''"
+[0m15:07:45.855562 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m15:07:45.856558 [info ] [MainThread]: Connection:
+[0m15:07:45.857288 [info ] [MainThread]:   method: oauth
+[0m15:07:45.858146 [info ] [MainThread]:   database: wide-exchanger-426409-p4
+[0m15:07:45.858824 [info ] [MainThread]:   execution_project: wide-exchanger-426409-p4
+[0m15:07:45.859725 [info ] [MainThread]:   schema: dbt_myproject1
+[0m15:07:45.860638 [info ] [MainThread]:   location: US
+[0m15:07:45.861379 [info ] [MainThread]:   priority: interactive
+[0m15:07:45.862262 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m15:07:45.863101 [info ] [MainThread]:   impersonate_service_account: None
+[0m15:07:45.863933 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m15:07:45.864610 [info ] [MainThread]:   job_retries: 1
+[0m15:07:45.865212 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m15:07:45.865892 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m15:07:45.866832 [info ] [MainThread]:   timeout_seconds: 300
+[0m15:07:45.867812 [info ] [MainThread]:   client_id: None
+[0m15:07:45.868729 [info ] [MainThread]:   token_uri: None
+[0m15:07:45.869423 [info ] [MainThread]:   dataproc_region: None
+[0m15:07:45.870061 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m15:07:45.870776 [info ] [MainThread]:   gcs_bucket: None
+[0m15:07:45.871694 [info ] [MainThread]:   dataproc_batch: None
+[0m15:07:45.872658 [info ] [MainThread]: Registered adapter: bigquery=1.8.1
+[0m15:07:45.875674 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m15:07:45.876642 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m15:07:47.062436 [debug] [MainThread]: On debug: select 1 as id
+[0m15:07:49.659928 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=wide-exchanger-426409-p4&j=bq:US:264e1840-05bd-4dcf-838d-7ac9bfd62586&page=queryresults
+[0m15:07:50.704614 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m15:07:50.707877 [info ] [MainThread]: [31m1 check failed:[0m
+[0m15:07:50.709171 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </home/quizent/Projects/dbtProj1/dbt_project.yml> not found
+
+[0m15:07:50.716952 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 5.872493, "process_user_time": 2.713864, "process_kernel_time": 0.228483, "process_mem_max_rss": "193904", "process_out_blocks": "24", "command_success": false, "process_in_blocks": "0"}
+[0m15:07:50.720488 [debug] [MainThread]: Command `dbt debug` failed at 15:07:50.718480 after 5.87 seconds
+[0m15:07:50.721316 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m15:07:50.722022 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c155abe65d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c155a927b60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c15427aed80>]}
+[0m15:07:50.727025 [debug] [MainThread]: Flushing usage events
+[0m12:10:09.385760 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76b330e94080>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76b32eb16630>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76b32eee3800>]}
+
+
+============================== 12:10:09.389548 | f6e854bc-7810-4b47-bc17-1fa30b78026d ==============================
+[0m12:10:09.389548 [info ] [MainThread]: Running with dbt=1.8.2
+[0m12:10:09.390595 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/quizent/.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m12:10:09.404452 [info ] [MainThread]: dbt version: 1.8.2
+[0m12:10:09.405476 [info ] [MainThread]: python version: 3.12.3
+[0m12:10:09.406602 [info ] [MainThread]: python path: /home/quizent/Projects/dbtProj1/venv/bin/python3
+[0m12:10:09.407688 [info ] [MainThread]: os info: Linux-6.8.0-35-generic-x86_64-with-glibc2.39
+[0m12:10:10.591486 [info ] [MainThread]: Using profiles dir at /home/quizent/.dbt
+[0m12:10:10.592260 [info ] [MainThread]: Using profiles.yml file at /home/quizent/.dbt/profiles.yml
+[0m12:10:10.592968 [info ] [MainThread]: Using dbt_project.yml file at /home/quizent/Projects/dbtProj1/dbt_project.yml
+[0m12:10:10.593607 [info ] [MainThread]: adapter type: bigquery
+[0m12:10:10.594239 [info ] [MainThread]: adapter version: 1.8.1
+[0m12:10:10.595158 [info ] [MainThread]: Configuration:
+[0m12:10:10.595770 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m12:10:10.596469 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m12:10:10.597375 [info ] [MainThread]: Required dependencies:
+[0m12:10:10.598303 [debug] [MainThread]: Executing "git --help"
+[0m12:10:10.601623 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m12:10:10.602409 [debug] [MainThread]: STDERR: "b''"
+[0m12:10:10.603086 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m12:10:10.603896 [info ] [MainThread]: Connection:
+[0m12:10:10.604986 [info ] [MainThread]:   method: oauth
+[0m12:10:10.605736 [info ] [MainThread]:   database: wide-exchanger-426409-p4
+[0m12:10:10.606531 [info ] [MainThread]:   execution_project: wide-exchanger-426409-p4
+[0m12:10:10.607524 [info ] [MainThread]:   schema: dbt_myproject1
+[0m12:10:10.608448 [info ] [MainThread]:   location: US
+[0m12:10:10.609559 [info ] [MainThread]:   priority: interactive
+[0m12:10:10.610431 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m12:10:10.611231 [info ] [MainThread]:   impersonate_service_account: None
+[0m12:10:10.612063 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m12:10:10.613063 [info ] [MainThread]:   job_retries: 1
+[0m12:10:10.614123 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m12:10:10.615044 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m12:10:10.615988 [info ] [MainThread]:   timeout_seconds: 300
+[0m12:10:10.617091 [info ] [MainThread]:   client_id: None
+[0m12:10:10.618162 [info ] [MainThread]:   token_uri: None
+[0m12:10:10.619156 [info ] [MainThread]:   dataproc_region: None
+[0m12:10:10.620169 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m12:10:10.621114 [info ] [MainThread]:   gcs_bucket: None
+[0m12:10:10.622043 [info ] [MainThread]:   dataproc_batch: None
+[0m12:10:10.623128 [info ] [MainThread]: Registered adapter: bigquery=1.8.1
+[0m12:10:10.631279 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m12:10:10.632261 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m12:10:11.932668 [debug] [MainThread]: On debug: select 1 as id
+[0m12:10:13.014138 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=wide-exchanger-426409-p4&j=bq:US:2c9f5bb4-4f67-4d4c-8a2f-b6d2a238e9fb&page=queryresults
+[0m12:10:14.118043 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m12:10:14.121146 [info ] [MainThread]: [31m1 check failed:[0m
+[0m12:10:14.124128 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </home/quizent/Projects/dbtProj1/dbt_project.yml> not found
+
+[0m12:10:14.130597 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 4.804441, "process_user_time": 3.043318, "process_kernel_time": 0.301635, "process_mem_max_rss": "194224", "process_out_blocks": "32", "command_success": false, "process_in_blocks": "0"}
+[0m12:10:14.136686 [debug] [MainThread]: Command `dbt debug` failed at 12:10:14.135572 after 4.81 seconds
+[0m12:10:14.140772 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m12:10:14.144907 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76b32ea6f0e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76b32fa37530>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76b32ef35b80>]}
+[0m12:10:14.149352 [debug] [MainThread]: Flushing usage events
+[0m12:56:36.961140 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b56618def60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b5661d7e990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b5661c7c0e0>]}
+
+
+============================== 12:56:36.964353 | f8ae6c89-6a40-46e8-9de6-7b3d01e6baf8 ==============================
+[0m12:56:36.964353 [info ] [MainThread]: Running with dbt=1.8.2
+[0m12:56:36.965289 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/quizent/.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m12:56:36.965954 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/quizent/Projects/dbtProj1/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m12:56:36.966978 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.058713067, "process_user_time": 1.495478, "process_kernel_time": 0.093904, "process_mem_max_rss": "85812", "process_out_blocks": "16", "command_success": false, "process_in_blocks": "0"}
+[0m12:56:36.967684 [debug] [MainThread]: Command `dbt run` failed at 12:56:36.967561 after 0.06 seconds
+[0m12:56:36.968169 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b56622596a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b5661da58e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b5661983fe0>]}
+[0m12:56:36.968653 [debug] [MainThread]: Flushing usage events
