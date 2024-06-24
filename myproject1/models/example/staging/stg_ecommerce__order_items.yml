@@ -1,17 +1,15 @@
 version: 2
 
 models:
-  - name: stg_ecommerce__orders_items
+  - name: stg_ecommerce__order_items
     description: "Line items from orders"
     columns:
       - name: order_item_id
-        description: "this is my order_id column"
         tests:
           - not_null
           - unique
 
       - name: order_id
-        description: "this is my order_id column"
         tests:
           - not_null
           - relationships:

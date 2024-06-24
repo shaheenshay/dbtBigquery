@@ -5,7 +5,7 @@ WITH source AS (
 )
 
 SELECT
-    id AS products_id,
+    id AS product_id,
     cost,
     retail_price,
     department,

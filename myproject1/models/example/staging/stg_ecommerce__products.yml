@@ -1,4 +1,5 @@
 version: 2
+
 models:
   - name: stg_ecommerce__products
     description: "Table of products on the online store"
@@ -24,10 +25,10 @@ models:
           - not_null
           - accepted_values:
               values:
-                -"Men"
-                -"Women"
-
-              quote: true  
+                - "Men"
+                - "Women"
+              quote: true
+              severity: error
 
       - name: brand
         description: "Brand of the product"
